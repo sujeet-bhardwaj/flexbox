@@ -1,0 +1,19 @@
+.parent{
+   height: 400px;
+   width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border: 2px solid black;
+}
+
+.box{
+   background-color: lightgreen;
+   height: 200px;
+   width: 200px;
+   /* transform: translate(50px,20px); */
+   /* transform: translateY(-30px); */
+    /* transform:rotate(-30deg); */
+     /* transform: scale(2); */
+/* transform: skew(50deg); */
+}

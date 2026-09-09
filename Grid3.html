@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    .container{
+    
+        height: 600px;
+        border: 2px solid red ;
+             display:grid;
+       grid-template-columns: repeat(2,minmax(200px,1fr));
+       grid-template-rows: 100px 100px;
+      /* justify-items: center ; */
+     /* align-items:; */
+    }
+#box1{
+    background-color: springgreen;
+  
+}
+#box2{
+    background-color: lightblue;
+}
+#box3{
+    background-color: rgb(177, 223, 53);
+   
+}
+#box4{
+    background-color: rgb(216, 62, 230);
+}
+
+  </style>
+
+
+
+</head>
+<body>
+
+     <div  class="container">
+      <div id="box1">Box1</div>
+            <div id="box2" >Box2</div>
+                  <div id="box3">Box3</div>
+                  <div id="box4">Box4</div>
+                </div>
+</body>
+</html>
